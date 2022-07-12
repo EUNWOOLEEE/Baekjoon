@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-void divisor(int large, int small)
+void divisor(int A, int B)
 {
-    for(int D = small; D >= 1; D--)
+    for(int D = A; D >= 1; D--)
     {
-        if(large % D == 0 && small % D == 0)
+        if(B % D == 0 && A % D == 0)
         {
             printf("%d\n", D);
             break;
@@ -12,14 +12,14 @@ void divisor(int large, int small)
     }
 }
 
-void multiple(int large, int small)
+void multiple(int A, int B)
 {
     int M;
 
     for(int i = 1; i; i++)
     {
-        M = large * i;
-        if(M % small == 0)
+        M = A * i;
+        if(M % B == 0)
         {
             printf("%d\n", M);
             break;
@@ -30,21 +30,10 @@ void multiple(int large, int small)
 int main()
 {
     int A, B;
-    int small, large;
 
     scanf("%d %d", &A, &B);
-    if(A > B)
-    {
-        large = A;
-        small = B;
-    }
-    else
-    {
-        large = B;
-        small = A;
-    }
-
-    divisor(large, small);
-    multiple(large, small);
+    
+    divisor(A, B);
+    multiple(A, B);
     return 0;
 }
