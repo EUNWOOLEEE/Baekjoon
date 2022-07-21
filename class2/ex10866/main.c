@@ -48,8 +48,6 @@ int pop_front()
 		f_idx = 0;
 		return deque[MAX];
 	}
-	else if(f_idx < b_idx)
-		return deque[f_idx++];
 	return deque[f_idx++];
 }
 
@@ -64,8 +62,6 @@ int pop_back()
 		b_idx = MAX;
 		return deque[b_idx];
 	}
-	else if(b_idx > f_idx)
-		return deque[--b_idx];
 	return deque[--b_idx];
 }
 
