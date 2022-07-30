@@ -13,10 +13,10 @@ int main()
 	{
 		scanf("%d", &input);
 
-		if(input >= num) //push
+		if(input > num) //push
 		{
 			int count = input - num;
-			for(int j = 0; j < count; j++)
+			while(count--)
 			{
 				stack[stack_idx++] = ++num;
 				sign[sign_idx++] = '+';
