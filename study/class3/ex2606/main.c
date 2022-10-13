@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 typedef struct
 {
@@ -28,7 +29,9 @@ int main()
 	int n, m;
 	scanf("%d %d", &n, &m);
 
-	computers list[100];
+	computers *list;
+	list = (computers *)malloc(sizeof(computers) * m);
+
 	for(int i = 0; i < m; i++)
 		scanf("%d %d", &list[i].a, &list[i].b);
 
