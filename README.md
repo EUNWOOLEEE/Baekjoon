@@ -7,7 +7,7 @@
 
 ------------
 
-### ✨  Challenge
+### ✨  Challenge [Done]
 - Review each other's code  
 - Started at Jun 27, 2022    
 - For 35 days
