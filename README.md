@@ -11,10 +11,10 @@
 - Review each other's code  
 - Started at Jun 27, 2022    
 - For 35 days
-- Participants : [Younganswer](https://github.com/Younganswer), [yeonwooz](https://github.com/yeonwooz), [BuMinKyoo](https://github.com/BuMinKyoo)  
 - Class (essential)
   - Class1 -> three problem a day
   - Class2 -> one problem a day
+- Participants : [Younganswer](https://github.com/Younganswer), [yeonwooz](https://github.com/yeonwooz), [BuMinKyoo](https://github.com/BuMinKyoo)  
 
 ------------
 
