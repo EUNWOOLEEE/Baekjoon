@@ -1,7 +1,7 @@
 # Baekjoon
 
 
-## problem solving with C language
+## Problem solving with C language
 
 #### Goal : https://solved.ac/class
 
