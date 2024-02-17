@@ -1,4 +1,4 @@
-# Baekjoon_c
+# Baekjoon_C
 
 
 ### Problem solving with C language
