@@ -3,6 +3,7 @@
 		"iostream": "cpp",
 		"iosfwd": "cpp",
 		"vector": "cpp",
-		"deque": "cpp"
+		"deque": "cpp",
+		"cmath": "cpp"
 	}
 }
